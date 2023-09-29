@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   path_provider: any
   sqflite_common_ffi:
+  excel: ^2.1.0
+  msix: ^3.16.4
 
 dev_dependencies:
   flutter_test:
@@ -91,3 +93,8 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+msix_config:
+  display_name: Kontrola braki
+  publisher_display_name: Paweł Sołtys
+  identity_name: dev.pawelsoltys.kontrolabraki
+  msix_version: 1.0.0.0
